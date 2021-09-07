@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Arial, sans-serif;
+  }
+
+
+/* HEADER / NAV BAR STYLES START */
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 35px;
+  background-color: darkorchid;
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: darkorchid;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* HEADER / NAVBAR STYLES END */
+
+
+  .purpledivider {
+      background-image: url("images/e63c595dd1ad68d9699c73ffb7343d91.jpg");
+      height: 300px;
+      width: 100%;
+  } 
+
+/* CONTAINER STYLES START */
+
+  .container {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 200 px;
+    width: 100%;
+  }
+
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .title {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 200px;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 25px;
+
+  }
+
+ .description {
+   flex-wrap: wrap;
+   align-items: flex-start;
+   height: 200px;
+   width: 1100px;
+   padding-top: 10px;
+ }
+
+ .flex-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: 100%;
+ }
+
+ .flex-item {
+   width: 40%;
+   border-radius: 0px;
+   border: 2px solid black;
+   background-color: #D577E5;
+   font-size: 18px;
+   font-weight: bold;
+   margin-bottom: 15px;
+   background-position: center;
+   padding: 10px 0;
+   min-height: 150px;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .flex-item span {
+   margin-top: auto;
+   width: 100%;
+   background-color: #D577E5;
+   color: black;
+   padding: 0px 0px;
+   text-align: center;
+   font-size: 24px;
+ }
+ 
+ @media screen and (max-width: 980px) {
+  form .form-group {
+    flex: 1 100%;
+  }
+
+ /* CONTAINER STYLES END */
+
+/* FOOTER STARTS */
+footer {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    background: darkorchid;
+    padding: 10px 20px;
+    width: 100%;
+}
+ }
