@@ -15,8 +15,8 @@ Verna Heyne
 Installation
 React
 
-Video that shows portfolio deployed through Heroku:
-
+Professional Website Deployed through Heroku:
+https://vheyneportfolio.herokuapp.com/
 
 Questions
 Email: vkheyne@gmail.com Github: https://github.com/HeyneV/portfolio-vheyne
