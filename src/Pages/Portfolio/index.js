@@ -27,6 +27,11 @@ function Portfolio() {
                         <img src="./assets/images/planner.jpeg" />
                         <a href="https://github.com/HeyneV/daily-planner">Github Repo</a>
                     </div>
+                    <div class="flex-item">
+                        <span>Discover Job Search</span>
+                        <img src="./assets/images/world.jpeg" />
+                        <a href="https://cryptic-taiga-26271.herokuapp.com/">Discover Job Search website</a>
+                    </div>
                 </div>
             </section>
         </main>
